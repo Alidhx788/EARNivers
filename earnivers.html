@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earniverse</title>
+    <link rel="stylesheet" href="earnivers.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="favicon.png" class="img1">
+            <h1><span>EARN</span>iverse</h1>
+        </div>
+        <div class="right">
+            <button class="download-app"><i class="fa-brands fa-google-play"></i></button>
+            <button id="money" onclick="updateContent('money')"><i class="fa-solid fa-dollar-sign"></i>
+                <span class="money-count">00</span></button>
+            <button class="icon" onclick="updateContent('login')"><i class="fa-solid fa-user"></i></button>
+            <button class="icon" onclick="updateContent('notifi')"><i class="fa-solid fa-bell"></i>
+                <span id="notification">00</span></button>
+            <button class="icon" onclick="updateContent('switch')"><i class="fa-brands fa-sellcast"></i></button>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <button class="a" onclick="updateContent('earn')"><i class="fa-solid fa-sack-dollar"></i> Earn</button>
+            <button class="a" onclick="updateContent('game')"><i class="fa-solid fa-gamepad"></i> Online Game</button>
+            <button class="a" onclick="updateContent('video')"><i class="fa-solid fa-video"></i> Watch Video</button>
+            <button class="a" onclick="updateContent('cash')"><i class="fa-solid fa-money-bill"></i> Cash Out</button>
+            <button class="a" onclick="updateContent('rewards')"><i class="fa-solid fa-trophy"></i> Rewards</button>
+            <button class="f" onclick="updateContent('leader')"><i class="fa-solid fa-chart-simple"></i> Leader Board</button>
+            <button class="a" onclick="updateContent('affiliates')"><i class="fas fa-bullhorn"></i> Affiliates</button>
+            <button class="a" onclick="updateContent('settings')"><i class="fa-solid fa-gear fa-spin"></i> Settings</button>
+            <p>Visit our social media platforms :</p>
+            <button class="a"><i class="fa-brands fa-youtube" id="f"></i> YouTube</button>
+            <button class="a"><i class="fa-brands fa-facebook" id="f"></i> Facebook</button>
+            <button class="a"><i class="fa-brands fa-twitter" id="f"></i> Twitter</button>
+        </aside>
+        <main class="main-content">
+            <section class="frem" id="frem-container">
+                <div id="full-container"></div>
+            </section>
+        </main>
+    </div>
+</body>
+<script src="earnivers.js"></script>
+</html>
