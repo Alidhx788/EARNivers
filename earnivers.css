@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Galada', cursive;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #1c1d30;
+}
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.left img{
+    height: 100%;
+}
+.left span{
+    color: #0af;
+}
+.left h1{
+    color: #fff;
+}
+.right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+}
+.right button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+}
+.right i {
+    color: #0af;
+    font-size: 2vw;
+}
+.right i:hover{
+    color: #f70;
+}
+.right i:active{
+    color: #0f8;
+}
+.right button span{
+    color: #fff;
+    font-size: large;
+    font-family: 'Galada', cursive;
+    margin: auto;
+    display: flex;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: #141522;
+}
+aside{
+    height: 100%;
+    width: 17%;
+    display: grid;
+    align-content: space-evenly;
+    background-color: transparent;
+}
+aside button {
+    height: 50px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    font-size: large;
+    font-family: 'Galada', cursive;
+    margin: auto;
+    border: none;
+    background-color: #0af;
+}
+aside button:hover{
+    background-color: #ff7700;
+}
+aside button:active{
+    background-color: #00ff88;
+}
+aside p{
+    color: #0f8;
+    margin: auto;
+}
+.main-content{
+    height: 100%;
+    width: 83%;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: transparent;
+}
+#full-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.webgame {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #33334d;
+}
+
+.webgame img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.webgame p {
+    color: #fff;
+}
+.webgame button {
+    background-color: #0af;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Galada', cursive;
+}
+.webgame button:hover{
+    background-color: #ff7700;
+}
+.webgame button:active{
+    background-color: #00ff88;
+}
